@@ -54,7 +54,7 @@ def test_update_ticket():
 
     response = client.put("/ticket/1", json={
         "id": 1,
-        "flight_name": "Flight ABC",
+        "flight_name": "Flight B",
         "flight_date": "2025-10-16",
         "flight_time": "16:00",
         "destination": "London"
